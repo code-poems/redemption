@@ -17,7 +17,7 @@ class Judgement
     def heaven; @heaven ||= Set.new; end
 
     def try human
-      if human.righteous == true
+      if human.righteous = true
         self.heaven << human
       end
     end
