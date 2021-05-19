@@ -4,7 +4,7 @@ class Human
   attr_accessor :righteous
 
   def initialize
-    @righteous = true
+    @righteous = false
   end
 
   def turn_bad
